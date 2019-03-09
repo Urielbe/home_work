@@ -1,10 +1,11 @@
 #!/bin/bash
 
 ##########
-#
-#
-#nmcli - script
-#########
+#created by: uriel
+#date: 9.3.19
+#purpose: nmcli - script
+#version: 1.0.0
+########
 
 #####VAR####
 
