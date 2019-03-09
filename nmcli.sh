@@ -29,7 +29,7 @@ echo "now enter DNS server (for two dns server "8.8.8.8 1.1.1.1") "
 read dnssrv
 ##########################COMMAND__NMCLI################################
 nmcli connection add type ethernet con-name $profile ifname $device ip4 $ipv4 gw4 $dg
-nmcli con mod $profile ipv4.dns $dnssvr
+nmcli con mod $profile ipv4.dns $dnssrv
 nmcli device status 
 
 echo "All done"
